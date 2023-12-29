@@ -1,0 +1,44 @@
+/*JOIN*/
+.join {
+    margin-bottom: 140px;
+    // .join__wrapper
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width:1170px) {
+            justify-content: center;
+            gap:55px;
+        }
+    }
+    // .join__gallery
+    &__gallery {
+        display: grid;
+        grid-template-columns: (233px 233px 233px);
+        @media (max-width:1170px) {
+            grid-template-columns: (233px 233px);
+            
+        }
+    }
+    // .join__action
+    &__action {
+        width: 381px;
+    }
+    // .join__title
+    &__title {
+        margin-bottom: 30px;
+    }
+    // .join__info
+    &__info {
+        margin-bottom: 40px;
+    }
+    // .join__subscribe
+    &__subscribe {
+    }
+}
+@media (max-width:1170px) {
+    .hide{
+        display: none;
+    }
+    
+}
