@@ -653,3 +653,135 @@ text-align: center;
     font-size: 18px;
     font-weight: 500;
 }
+
+
+.footer {
+    // .footer__container
+    &__container {
+        margin: 60px 0;
+        padding-left: 191px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+        gap: 30px 50px;
+    }
+    // .footer__logo
+    &__logo {
+        width: 131px;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    // .footer__logo-link
+    &__logo-link {
+    }
+    // .footer__logo-img
+    &__logo-img {
+    }
+    // .footer__menu
+    &__menu {
+        
+    }
+    // .footer__menu-list
+    &__menu-list {
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    // .footer__menu-item
+    &__menu-item {
+    }
+    // .footer__menu-link
+    &__menu-link {
+        color: #122947;
+        font-family: 'MPLUS1p-Regular', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    // .footer__socials
+    &__socials {
+    }
+    // .footer__socials-list
+    &__socials-list {
+        display: flex;
+        gap: 30px;
+    }
+    // .footer__socials-item
+    &__socials-item {
+    }
+    // .footer__socials-link
+    &__socials-link {
+    }
+    // .footer__under
+    &__under {
+    }
+}
+
+
+.catalog {
+    padding-top: 100px;
+    // .catalog__container
+    &__container {
+    }
+    // .catalog__top
+    &__top {
+    }
+    // .catalog__title
+    &__title {
+    }
+    // .catalog__filterBtn
+    &__filterBtn {
+    }
+    // .catalog__filter-form
+    &__filter-form {
+    }
+    // .catalog__items
+    &__items {
+    }
+    // .catalog__item
+    &__item {
+    }
+    // .catalog__item-card
+    &__item-card {
+    }
+}
+
+.filter {
+    display: flex;
+    // .filter__group
+    &__group {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+
+    // .filter__buttons
+    &__buttons {
+    }
+    // .filter__button
+    &__button {
+    }
+}
+.item-card {
+    // .item-card__bg
+    &__bg {
+    }
+    // .item-card__content
+    &__content {
+    }
+    // .item-card__name
+    &__name {
+    }
+    // .item-card__price
+    &__price {
+    }
+    // .item-card__desc
+    &__desc {
+    }
+    // .item-card__volume
+    &__volume {
+    }
+}

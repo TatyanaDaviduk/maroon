@@ -1,0 +1,64 @@
+<!--=include header.html-->
+<section class="catalog">
+    <div class="container">
+        <div class="catalog__container">
+            <div class="catalog__top">
+                <h1 class="catalog__title title">Каталог</h1>
+                <button class="catalog__filterBtn ">Фильтр</button>
+                <form class="catalog__filter-form filter">
+                    <fieldset class="filter__group filter__group-facialCare">
+                        <legent class="filter__group__title">Уход для лица</legent>
+                        <label for="cream" > 
+                            <input type="checkbox" name="cream" value="cream">
+                            Крема
+                        </label>
+                        <label for="serums" > 
+                            <input type="checkbox" name="serums" value="serums">
+                            Сыворотки
+                        </label>
+                        <label for="face-masks" > 
+                            <input type="checkbox" name="face-masks" value="face-masks">
+                            Маски
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="filter__group filter__group-bodyCare">
+                        <legent class="filter__group__title">Уход для тела</legent>
+                        <label for="cream" > 
+                            <input type="checkbox" name="cream" value="cream">
+                            Крема
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="filter__group filter__group-skinType">
+                        <legent class="filter__group__title">Тип кожи</legent>
+                        <label for="cream" > 
+                            <input type="checkbox" name="cream" value="cream">
+                            Крема
+                        </label>
+                    </fieldset>
+                    <div class="filter__buttons">
+                        <button class="filter__button">Применить</button>
+                        <button class="filter__button">Сбросить</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="catalog__items">
+                <div class="catalog__item">
+                    <div class="catalog__item-card item-card">
+                        <img src="" alt="" class="item-card__bg">
+                        <div class="item-card__content">
+                            <div class="item-card__name"></div>
+                            <div class="item-card__price"></div>
+                            <div class="item-card__desc"></div>
+                            <div class="item-card__volume"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=include footer.html-->

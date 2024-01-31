@@ -847,3 +847,47 @@ s .banner-history__inner {
   font-size: 18px;
   font-weight: 500;
 }
+
+.footer__container {
+  margin: 60px 0;
+  padding-left: 191px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  gap: 30px 50px;
+}
+.footer__logo {
+  width: 131px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer__menu-list {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.footer__menu-link {
+  color: #122947;
+  font-family: "MPLUS1p-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer__socials-list {
+  display: flex;
+  gap: 30px;
+}
+.catalog {
+  padding-top: 100px;
+}
+.filter {
+  display: flex;
+}
+.filter__group {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
